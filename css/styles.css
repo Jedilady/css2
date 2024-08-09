@@ -1,0 +1,85 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f6f6f6;
+    color: #333;
+    margin: 1.5rem;
+}
+
+h1,
+h2 {
+    color: #1c1c1c;
+}
+
+/* Estilos para los enlaces */
+
+.ejemplo-enlace {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Pseudoclases para enlaces */
+
+.ejemplo-enlace:visited {
+    color: #5a5a5a;
+}
+
+.ejemplo-enlace:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.ejemplo-enlace:active{
+    color:#003366;
+}
+
+/* Estilos para la tabla */
+.estilo-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.estilo-tabla thead tr {
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+}
+
+.estilo-tabla th,
+.estilo-tabla td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.estilo-tabla tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.estilo-tabla tbody tr:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+/* Estilos para la lista */
+.estilo-lista {
+    list-style-type: decimal-leading-zero;
+    margin-left: 20px;
+    padding-left: 0px;
+    color: #009879;
+}
+
+.estilo-lista li {
+    padding: 5px 0;
+}
+
+/* Pseudoclase para la lista */
+.estilo-lista li:hover {
+    font-weight: bold;
+    color: #0053b3;
+    cursor: pointer;
+}
