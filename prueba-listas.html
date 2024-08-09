@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de ::marker</title>
+    <style>
+        ul {
+            list-style-type: disc; /* Elimina el estilo predeterminado */
+            padding-left: 10px; /* Espaciado a la izquierda */
+            list-style-position:inside;
+            list-style-image: url('ruta-a-la-imagen.png'); /* reemplaza el marcador por una imagen*/
+        }
+        li::marker {
+            content: '🔥'; /* Usa un emoji como marcador */
+            /*content: '→ '; /* Reemplaza el marcador con una flecha */
+            /*content: ''; /* Elimina el marcador predeterminado */
+            color: orange;
+            font-size: 50px;
+            line-height: 50px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: italic;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+</body>
+</html>
